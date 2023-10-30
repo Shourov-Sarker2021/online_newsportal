@@ -105,7 +105,7 @@ Route::post('/store/video',[GalleryController::class,'StoreVideo'])->name('store
 Route::get('/lang/bangla',[ExtraController::class,'LangBangla'])->name('lang.bangla');
 Route::get('/lang/english',[ExtraController::class,'LangEnglish'])->name('lang.english');
 
-Route:get('/test', function(){
+Route::get('/test', function(){
     return "this is a test route";
 });
 
